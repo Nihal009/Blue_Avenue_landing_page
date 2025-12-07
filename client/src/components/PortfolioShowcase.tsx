@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import { Card } from '@/components/ui/card';
-import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { ZoomIn } from 'lucide-react';
-import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 
 import navySuit from '@assets/generated_images/navy_three-piece_suit.png';
 import customShirt from '@assets/generated_images/custom_monogram_shirt.png';
@@ -51,7 +49,6 @@ const portfolioItems = [
 ];
 
 export default function PortfolioShowcase() {
-  const [selectedImage, setSelectedImage] = useState<typeof portfolioItems[0] | null>(null);
 
   return (
     <section
@@ -106,10 +103,8 @@ export default function PortfolioShowcase() {
                   </div>
                 </Card>
               </DialogTrigger>
-              <DialogContent className="max-w-4xl p-0 overflow-hidden" aria-describedby={undefined}>
-                <VisuallyHidden>
-                  <DialogTitle>{item.title}</DialogTitle>
-                </VisuallyHidden>
+              <DialogContent className="max-w-4xl p-0 overflow-hidden">
+                <div className="sr-only">{item.title}</div>
                 <div className="relative">
                   <img
                     src={item.image}
