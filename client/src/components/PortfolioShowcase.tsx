@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Card } from '@/components/ui/card';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import { X, ZoomIn } from 'lucide-react';
+import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { ZoomIn } from 'lucide-react';
+import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 
 import navySuit from '@assets/generated_images/navy_three-piece_suit.png';
 import customShirt from '@assets/generated_images/custom_monogram_shirt.png';
@@ -105,7 +106,10 @@ export default function PortfolioShowcase() {
                   </div>
                 </Card>
               </DialogTrigger>
-              <DialogContent className="max-w-4xl p-0 overflow-hidden">
+              <DialogContent className="max-w-4xl p-0 overflow-hidden" aria-describedby={undefined}>
+                <VisuallyHidden>
+                  <DialogTitle>{item.title}</DialogTitle>
+                </VisuallyHidden>
                 <div className="relative">
                   <img
                     src={item.image}
