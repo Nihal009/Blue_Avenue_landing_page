@@ -43,17 +43,17 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
             className="font-serif text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight"
             data-testid="text-hero-headline"
           >
-            Crafting
+            Bespoke
             <br />
-            <span className="italic">Distinction</span>
+            <span className="italic">Luxury</span>
           </h1>
 
           <p
             className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed"
             data-testid="text-hero-description"
           >
-            Where tradition meets modern elegance. Experience the art of bespoke tailoring,
-            crafted with precision and passion for over two decades.
+            Dubai's premier bespoke tailoring atelier. Crafting luxury garments with Italian fabrics
+            and meticulous attention to detail. Experience true craftsmanship.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

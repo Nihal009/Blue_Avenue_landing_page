@@ -2,6 +2,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutServices from '@/components/AboutServices';
 import PortfolioShowcase from '@/components/PortfolioShowcase';
+import LocationsSection from '@/components/LocationsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import ClientsSection from '@/components/ClientsSection';
 import ContactSection from '@/components/ContactSection';
@@ -27,6 +28,7 @@ export default function LandingPage() {
         />
         <AboutServices />
         <PortfolioShowcase />
+        <LocationsSection />
         <TestimonialsSection />
         <ClientsSection />
         <ContactSection />

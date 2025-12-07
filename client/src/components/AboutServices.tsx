@@ -43,22 +43,22 @@ export default function AboutServices() {
                 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight"
                 data-testid="text-services-title"
               >
-                A Legacy of
+                Dubai's Premier
                 <br />
-                <span className="italic">Craftsmanship</span>
+                <span className="italic">Tailoring House</span>
               </h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-services-description">
-              For over twenty years, Blue Avenue has been synonymous with exceptional tailoring.
-              Our master craftsmen blend time-honored techniques with contemporary style to create
-              garments that are as unique as our clients.
+              Blue Avenue brings European bespoke tradition to Dubai's luxury market. Our master
+              tailors craft garments with Italian and British fabrics, creating pieces that define
+              modern sophistication and timeless elegance.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Every stitch tells a story of dedication, precision, and the pursuit of perfection.
-              From the first consultation to the final fitting, we ensure an experience as refined
-              as the garments we create.
+              With boutiques across Dubai's most prestigious locations, we deliver personalized
+              luxury. Each garment is an expression of your individuality—meticulously designed,
+              expertly executed, and perfectly fitted.
             </p>
 
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden mt-8">
