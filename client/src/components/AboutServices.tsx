@@ -6,7 +6,7 @@ const services = [
   {
     icon: Scissors,
     title: 'Custom Suits',
-    description: 'Bespoke suits tailored to your exact measurements and style preferences.',
+    description: 'Made-to-measure suits tailored to your exact specifications and style.',
   },
   {
     icon: Ruler,
@@ -50,7 +50,7 @@ export default function AboutServices() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-services-description">
-              Blue Avenue brings European bespoke tradition to Dubai's luxury market. Our master
+              Blue Avenue brings European tailoring tradition to Dubai's luxury market. Our master
               tailors craft garments with Italian and British fabrics, creating pieces that define
               modern sophistication and timeless elegance.
             </p>

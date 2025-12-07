@@ -36,14 +36,14 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
             className="text-sm md:text-base uppercase tracking-[0.3em] text-white/80 font-medium"
             data-testid="text-hero-tagline"
           >
-            Bespoke Tailoring Excellence
+            Master Tailoring Excellence
           </p>
 
           <h1
             className="font-serif text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight"
             data-testid="text-hero-headline"
           >
-            Bespoke
+            Artisanal
             <br />
             <span className="italic">Luxury</span>
           </h1>
@@ -52,7 +52,7 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
             className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed"
             data-testid="text-hero-description"
           >
-            Dubai's premier bespoke tailoring atelier. Crafting luxury garments with Italian fabrics
+            Dubai's premier tailoring atelier. Crafting luxury garments with Italian fabrics
             and meticulous attention to detail. Experience true craftsmanship.
           </p>
 

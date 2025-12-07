@@ -59,7 +59,7 @@ export default function LocationsSection() {
             Visit Our <span className="text-primary italic">Ateliers</span> Across Dubai
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience our bespoke tailoring at our premium locations throughout Dubai. Each atelier
+            Experience our made-to-measure tailoring at our premium locations throughout Dubai. Each atelier
             offers personalized consultation and expert craftsmanship.
           </p>
         </div>

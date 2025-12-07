@@ -61,7 +61,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 space-y-6">
             <span className="font-serif text-2xl font-bold">Blue Avenue</span>
             <p className="text-sm text-sidebar-foreground/70 leading-relaxed">
-              Crafting distinction through bespoke tailoring since 2003. Experience the art of
+              Crafting distinction through master tailoring since 2003. Experience the art of
               personalized elegance.
             </p>
             <div className="flex gap-3 flex-wrap">

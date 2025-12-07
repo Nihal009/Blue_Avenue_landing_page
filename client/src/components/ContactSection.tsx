@@ -87,7 +87,7 @@ export default function ContactSection() {
             Contact <span className="italic">Us</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to experience bespoke tailoring? Schedule a consultation or send us a message.
+            Ready to experience luxury tailoring? Schedule a consultation or send us a message.
           </p>
         </div>
 
