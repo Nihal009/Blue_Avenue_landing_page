@@ -67,7 +67,7 @@ export default function TestimonialsSection() {
               data-testid={`card-testimonial-${index}`}
             >
               <Quote className="absolute top-6 right-6 w-8 h-8 text-primary/20" />
-              
+
               <div className="space-y-6">
                 <div className="flex gap-1">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
 
                 <div className="flex items-center gap-4 pt-4 border-t border-border">
                   <Avatar className="w-12 h-12">
-                    <AvatarImage src={testimonial.image} alt={testimonial.name} />
+                    <AvatarImage src={testimonial.image.src} alt={testimonial.name} />
                     <AvatarFallback>
                       {testimonial.name
                         .split(' ')

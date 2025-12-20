@@ -1,5 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { Scissors, Ruler, Shirt, Sparkles } from 'lucide-react';
+import Image from 'next/image';
 import tailorImage from '@assets/stock_images/luxury_tailor_measur_7f5ed999.jpg';
 
 const services = [
@@ -62,10 +63,11 @@ export default function AboutServices() {
             </p>
 
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden mt-8">
-              <img
+              <Image
                 src={tailorImage}
                 alt="Master tailor measuring client for custom suit"
-                className="w-full h-full object-cover"
+                className="object-cover"
+                fill
               />
             </div>
           </div>

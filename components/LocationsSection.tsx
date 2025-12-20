@@ -4,39 +4,21 @@ import { MapPin, Phone, Clock } from 'lucide-react';
 const locations = [
   {
     id: 1,
-    name: 'Downtown Dubai Flagship',
-    address: 'Boulevard Plaza, Downtown Dubai',
-    phone: '+971-4-309-8888',
+    name: 'Shop 1: Union Metro',
+    address: 'West Zone Supermarket Building, Union Metro Station Exit 2, Dubai - UAE',
+    phone: '045753696',
     hours: 'Daily 10 AM - 10 PM',
-    latitude: 25.1972,
-    longitude: 55.2744,
+    latitude: 25.2662, // Approx for Union Metro
+    longitude: 55.3057,
   },
   {
     id: 2,
-    name: 'Emirates Hills Boutique',
-    address: 'Sheikh Mohammed bin Rashid Boulevard, Emirates Hills',
-    phone: '+971-4-368-6666',
-    hours: 'Daily 10 AM - 9 PM',
-    latitude: 25.0932,
-    longitude: 55.2154,
-  },
-  {
-    id: 3,
-    name: 'Dubai Marina Studio',
-    address: 'Marina Promenade, Dubai Marina',
-    phone: '+971-4-362-5555',
+    name: 'Shop 2: Al Quoz',
+    address: 'Farnek Building, Near Belhasa Exchange, Alquoz 4 Opp. Community Market Dubai-UAE',
+    phone: '+971588836772',
     hours: 'Daily 10 AM - 10 PM',
-    latitude: 25.0885,
-    longitude: 55.1411,
-  },
-  {
-    id: 4,
-    name: 'DIFC Atelier',
-    address: 'DIFC Gate, Dubai International Financial Centre',
-    phone: '+971-4-362-7777',
-    hours: 'Mon-Fri 9 AM - 7 PM, Sat-Sun 10 AM - 7 PM',
-    latitude: 25.2048,
-    longitude: 55.2708,
+    latitude: 25.1325, // Approx for Al Quoz 4
+    longitude: 55.2570,
   },
 ];
 
@@ -56,11 +38,10 @@ export default function LocationsSection() {
             className="font-serif text-4xl md:text-5xl font-bold text-foreground"
             data-testid="text-locations-title"
           >
-            Visit Our <span className="text-primary italic">Ateliers</span> Across Dubai
+            Visit Our <span className="text-primary italic">Shops</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience our made-to-measure tailoring at our premium locations throughout Dubai. Each atelier
-            offers personalized consultation and expert craftsmanship.
+            Visit us at one of our convenient locations in Dubai.
           </p>
         </div>
 

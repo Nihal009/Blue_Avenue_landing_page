@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Play, ChevronDown } from 'lucide-react';
+import Image from 'next/image';
 import heroImage from '@assets/generated_images/tailoring_craftsmanship_hero_image.png';
 
 interface HeroSectionProps {
@@ -22,10 +23,12 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
       data-testid="section-hero"
     >
       <div className="absolute inset-0">
-        <img
+        <Image
           src={heroImage}
           alt="Blue Avenue Tailoring Craftsmanship"
-          className="w-full h-full object-cover"
+          className="object-cover"
+          fill
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
       </div>
@@ -36,24 +39,17 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
             className="text-sm md:text-base uppercase tracking-[0.3em] text-white/80 font-medium"
             data-testid="text-hero-tagline"
           >
-            Master Tailoring Excellence
+            Custom Tailoring Services
           </p>
 
-          <h1
-            className="font-serif text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight"
-            data-testid="text-hero-headline"
-          >
-            Artisanal
-            <br />
-            <span className="italic">Luxury</span>
-          </h1>
+
 
           <p
             className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed"
             data-testid="text-hero-description"
           >
-            Dubai's premier tailoring atelier. Crafting luxury garments with Italian fabrics
-            and meticulous attention to detail. Experience true craftsmanship.
+            We provide high quality custom suits, shirts, and alterations in Dubai.
+            Expert service with attention to detail.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">

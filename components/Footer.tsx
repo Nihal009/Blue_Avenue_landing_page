@@ -61,8 +61,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 space-y-6">
             <span className="font-serif text-2xl font-bold">Blue Avenue</span>
             <p className="text-sm text-sidebar-foreground/70 leading-relaxed">
-              Crafting distinction through master tailoring since 2003. Experience the art of
-              personalized elegance.
+              Professional tailoring services in Dubai.
             </p>
             <div className="flex gap-3 flex-wrap">
               {socialLinks.map((social) => (
@@ -121,25 +120,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-span-2 md:col-span-1 space-y-4">
-            <h4 className="font-semibold text-sm uppercase tracking-wider">Newsletter</h4>
-            <p className="text-sm text-sidebar-foreground/70">
-              Subscribe for exclusive updates and styling tips.
-            </p>
-            <form onSubmit={handleSubscribe} className="flex gap-2 flex-wrap">
-              <Input
-                type="email"
-                placeholder="your@email.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 min-w-[150px] bg-sidebar-accent border-sidebar-border text-sidebar-foreground placeholder:text-sidebar-foreground/50"
-                data-testid="input-newsletter-email"
-              />
-              <Button type="submit" size="default" data-testid="button-newsletter-subscribe">
-                Subscribe
-              </Button>
-            </form>
-          </div>
+
         </div>
 
         <div className="mt-12 pt-8 border-t border-sidebar-border flex flex-col md:flex-row items-center justify-between gap-4">

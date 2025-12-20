@@ -17,18 +17,18 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const contactInfo = [
   {
     icon: MapPin,
-    label: 'Headquarters',
-    value: 'Boulevard Plaza, Downtown Dubai, UAE',
+    label: 'Locations',
+    value: 'Union Metro & Al Quoz',
   },
   {
     icon: Phone,
     label: 'Call Us',
-    value: '+971-4-309-8888',
+    value: '+971588836772',
   },
   {
     icon: Mail,
     label: 'Email Us',
-    value: 'info@blueavenue.ae',
+    value: 'Blueavenuestitches@gmail.com',
   },
   {
     icon: Clock,
@@ -195,19 +195,7 @@ export default function ContactSection() {
               ))}
             </div>
 
-            <div className="aspect-[4/3] rounded-lg overflow-hidden mt-8">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.4285!2d55.27441!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68e08a8c8c8d%3A0x0!2sBlue%20Avenue%20Dubai!5e0!3m2!1sen!2sae!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Blue Avenue Downtown Dubai"
-                data-testid="map-contact"
-              />
-            </div>
+
           </div>
         </div>
       </div>
