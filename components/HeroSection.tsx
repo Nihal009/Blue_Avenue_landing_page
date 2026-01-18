@@ -44,6 +44,13 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
 
 
 
+          <h1
+            className="font-serif text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight"
+            data-testid="text-hero-title"
+          >
+            Top Uniform Supplier & Professional Tailoring in Dubai
+          </h1>
+
           <p
             className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed"
             data-testid="text-hero-description"
