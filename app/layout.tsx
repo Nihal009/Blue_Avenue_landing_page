@@ -7,6 +7,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif"
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata = {
+    metadataBase: new URL('https://blueavenuestitches.ae'),
     title: 'Top Uniform Supplier & Professional Tailoring in Dubai | Blue Avenue Stitches',
     description: 'Blue Avenue Stitches offers premium uniform supply and professional stitching services in Dubai. Specialist in corporate, medical, and industrial uniforms.',
     alternates: {
