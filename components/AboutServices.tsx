@@ -24,6 +24,11 @@ const services = [
     title: 'Luxury Fabrics',
     description: 'Access to the finest Italian and British fabrics for your wardrobe.',
   },
+  {
+    icon: Shirt, // Reusing Shirt icon, or could add a new one if available
+    title: 'Uniform Supplier',
+    description: 'High-quality custom uniforms for businesses and organizations.',
+  },
 ];
 
 export default function AboutServices() {

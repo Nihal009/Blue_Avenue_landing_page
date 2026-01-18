@@ -63,7 +63,7 @@ export default function Footer() {
             <p className="text-sm text-sidebar-foreground/70 leading-relaxed">
               Professional tailoring services in Dubai.
             </p>
-            <div className="flex gap-3 flex-wrap">
+            {/* <div className="flex gap-3 flex-wrap">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -75,7 +75,7 @@ export default function Footer() {
                   <social.icon className="w-5 h-5" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           <div className="space-y-4">
@@ -124,9 +124,17 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-sidebar-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-sidebar-foreground/60">
-            2024 Blue Avenue. All rights reserved.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <p className="text-sm text-sidebar-foreground/60">
+              &copy; 2026 Blue Avenue. All rights reserved.
+            </p>
+            <p className="text-sm text-sidebar-foreground/60 border-l border-sidebar-border pl-4 hidden md:block">
+              Powered by <span className="font-outfit font-semibold text-sidebar-foreground/80 tracking-tight">ZynkLabs</span>
+            </p>
+            <p className="text-sm text-sidebar-foreground/60 md:hidden">
+              Powered by <span className="font-outfit font-semibold text-sidebar-foreground/80 tracking-tight">ZynkLabs</span>
+            </p>
+          </div>
           <div className="flex gap-6 flex-wrap">
             {footerLinks.legal.map((link) => (
               <a

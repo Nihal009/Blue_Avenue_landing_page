@@ -5,6 +5,9 @@ import medicalUniform from '@assets/generated_images/medical_doctor_uniform_1766
 import chefUniform from '@assets/generated_images/chef_kitchen_uniform_1766246389501.png';
 import schoolUniform from '@assets/generated_images/school_children_uniform_1766246411582.png';
 import hospitalityUniform from '@assets/generated_images/hospitality_waiter_uniform_1766247992419.png';
+import corporateWear from '@assets/generated_images/corporate_woman_green_blazer.png';
+import premiumTshirts from '@assets/generated_images/premium_tshirts.png';
+import womensFormal from '@assets/generated_images/womens_formal_wear.png';
 
 const services = [
   {
@@ -30,6 +33,24 @@ const services = [
     image: hospitalityUniform,
     title: 'Hospitality',
     description: 'Elegant waiter and service staff uniforms for luxury establishments.',
+  },
+  {
+    id: 5,
+    image: corporateWear,
+    title: 'Corporate Wear',
+    description: 'Sophisticated business attire and corporate uniforms for modern professionals.',
+  },
+  {
+    id: 6,
+    image: premiumTshirts,
+    title: 'Premium T-Shirts',
+    description: 'High-quality cotton t-shirts for bulk orders and corporate branding.',
+  },
+  {
+    id: 7,
+    image: womensFormal,
+    title: "Women's Formal Wear",
+    description: 'Elegant bespoke formal wear and suits tailored for professional women.',
   },
 ];
 

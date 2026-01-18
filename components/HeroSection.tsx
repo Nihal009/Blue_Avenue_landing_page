@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Play, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
-import heroImage from '@assets/generated_images/tailoring_craftsmanship_hero_image.png';
+import heroImage from '@assets/generated_images/premium_craftsmanship_hero_v5.png';
 
 interface HeroSectionProps {
   onBookConsultation?: () => void;
@@ -69,7 +69,7 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
               data-testid="button-hero-portfolio"
             >
               <Play className="w-5 h-5 mr-2" />
-              View Our Work
+              View Our Services
             </Button>
           </div>
         </div>

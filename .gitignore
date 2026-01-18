@@ -15,7 +15,6 @@ vite.config.ts.*
 # Misc
 .env*.local
 .vercel
-.replit
 *.log
 npm-debug.log*
 yarn-debug.log*
