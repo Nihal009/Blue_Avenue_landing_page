@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Play, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
-import heroImage from '@assets/generated_images/premium_craftsmanship_hero_v5.png';
+import heroImage from '@assets/generated_images/premium_craftsmanship_hero_v5.webp';
 
 interface HeroSectionProps {
   onBookConsultation?: () => void;

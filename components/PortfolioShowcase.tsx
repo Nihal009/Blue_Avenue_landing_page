@@ -1,13 +1,13 @@
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
 
-import medicalUniform from '@assets/generated_images/medical_doctor_uniform_1766246371117.png';
-import chefUniform from '@assets/generated_images/chef_kitchen_uniform_1766246389501.png';
-import schoolUniform from '@assets/generated_images/school_children_uniform_1766246411582.png';
-import hospitalityUniform from '@assets/generated_images/hospitality_waiter_uniform_1766247992419.png';
-import corporateWear from '@assets/generated_images/corporate_woman_green_blazer.png';
-import premiumTshirts from '@assets/generated_images/premium_tshirts.png';
-import womensFormal from '@assets/generated_images/womens_formal_wear.png';
+import medicalUniform from '@assets/generated_images/medical_doctor_uniform_1766246371117.webp';
+import chefUniform from '@assets/generated_images/chef_kitchen_uniform_1766246389501.webp';
+import schoolUniform from '@assets/generated_images/school_children_uniform_1766246411582.webp';
+import hospitalityUniform from '@assets/generated_images/hospitality_waiter_uniform_1766247992419.webp';
+import corporateWear from '@assets/generated_images/corporate_woman_green_blazer.webp';
+import premiumTshirts from '@assets/generated_images/premium_tshirts.webp';
+import womensFormal from '@assets/generated_images/womens_formal_wear.webp';
 
 const services = [
   {
