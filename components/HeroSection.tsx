@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Play, ChevronDown } from 'lucide-react';
-import Image from 'next/image';
+import { FadeInImage } from '@/components/ui/fade-in-image';
 import heroImage from '@assets/generated_images/premium_craftsmanship_hero_v5.webp';
 
 interface HeroSectionProps {
@@ -23,7 +23,7 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
       data-testid="section-hero"
     >
       <div className="absolute inset-0">
-        <Image
+        <FadeInImage
           src={heroImage}
           alt="Blue Avenue Tailoring Craftsmanship"
           className="object-cover"

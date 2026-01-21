@@ -1,5 +1,5 @@
 import { Card } from '@/components/ui/card';
-import Image from 'next/image';
+import { FadeInImage } from '@/components/ui/fade-in-image';
 
 import medicalUniform from '@assets/generated_images/medical_doctor_uniform_1766246371117.webp';
 import chefUniform from '@assets/generated_images/chef_kitchen_uniform_1766246389501.webp';
@@ -85,7 +85,7 @@ export default function PortfolioShowcase() {
               data-testid={`card-service-${index}`}
             >
               <div className="aspect-[3/4] overflow-hidden rounded-2xl mb-6 relative bg-muted">
-                <Image
+                <FadeInImage
                   src={service.image}
                   alt={service.title}
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
