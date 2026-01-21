@@ -12,7 +12,6 @@ const navLinks = [
   { label: 'Services', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'Locations', href: '#locations' },
-  { label: 'Testimonials', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -40,11 +39,10 @@ export default function Navigation({ onNavigate }: NavigationProps) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? 'bg-background/95 backdrop-blur-md shadow-md'
           : 'bg-transparent'
-      }`}
+        }`}
       data-testid="navigation-header"
     >
       <nav className="max-w-7xl mx-auto px-6 md:px-8">
@@ -59,9 +57,8 @@ export default function Navigation({ onNavigate }: NavigationProps) {
             data-testid="link-logo"
           >
             <span
-              className={`font-serif text-2xl md:text-3xl font-bold tracking-tight transition-colors ${
-                isScrolled ? 'text-foreground' : 'text-white'
-              }`}
+              className={`font-serif text-2xl md:text-3xl font-bold tracking-tight transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
+                }`}
             >
               Blue Avenue
             </span>
@@ -76,9 +73,8 @@ export default function Navigation({ onNavigate }: NavigationProps) {
                   e.preventDefault();
                   handleNavClick(link.href);
                 }}
-                className={`text-sm font-medium uppercase tracking-wider transition-colors hover:opacity-80 ${
-                  isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+                className={`text-sm font-medium uppercase tracking-wider transition-colors hover:opacity-80 ${isScrolled ? 'text-foreground' : 'text-white'
+                  }`}
                 data-testid={`link-nav-${link.label.toLowerCase()}`}
               >
                 {link.label}
@@ -89,11 +85,10 @@ export default function Navigation({ onNavigate }: NavigationProps) {
           <div className="hidden lg:block">
             <Button
               onClick={() => handleNavClick('#contact')}
-              className={`uppercase tracking-wider font-semibold px-6 ${
-                isScrolled
+              className={`uppercase tracking-wider font-semibold px-6 ${isScrolled
                   ? ''
                   : 'bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30 text-white'
-              }`}
+                }`}
               data-testid="button-book-consultation"
             >
               Book Consultation

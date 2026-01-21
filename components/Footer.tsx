@@ -15,7 +15,6 @@ const footerLinks = {
   company: [
     { label: 'About Us', href: '#services' },
     { label: 'Our Portfolio', href: '#portfolio' },
-    { label: 'Testimonials', href: '#testimonials' },
     { label: 'Contact', href: '#contact' },
   ],
   legal: [
@@ -55,7 +54,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-sidebar text-sidebar-foreground" data-testid="section-footer">
+    <footer id="contact" className="bg-sidebar text-sidebar-foreground" data-testid="section-footer">
       <div className="max-w-7xl mx-auto px-6 md:px-8 py-12 md:py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
           <div className="col-span-2 md:col-span-1 space-y-6">

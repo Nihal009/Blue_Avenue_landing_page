@@ -97,7 +97,7 @@ export default function LandingPage() {
 
             <main>
                 <HeroSection
-                    onBookConsultation={() => scrollToSection('footer')}
+                    onBookConsultation={() => scrollToSection('contact')}
                     onViewWork={() => scrollToSection('portfolio')}
                 />
                 <AboutServices />
