@@ -60,14 +60,7 @@ export default function HeroSection({ onBookConsultation, onViewWork }: HeroSect
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <Button
-              size="lg"
-              onClick={onBookConsultation}
-              className="w-full sm:w-auto px-8 py-6 text-base md:text-lg uppercase tracking-wider font-semibold"
-              data-testid="button-hero-consultation"
-            >
-              Schedule Consultation
-            </Button>
+
             <Button
               size="lg"
               variant="outline"

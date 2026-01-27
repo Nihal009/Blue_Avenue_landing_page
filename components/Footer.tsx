@@ -15,12 +15,9 @@ const footerLinks = {
   company: [
     { label: 'About Us', href: '#services' },
     { label: 'Our Portfolio', href: '#portfolio' },
-    { label: 'Contact', href: '#contact' },
+
   ],
-  legal: [
-    { label: 'Privacy Policy', href: '#' },
-    { label: 'Terms of Service', href: '#' },
-  ],
+
 };
 
 const socialLinks = [
@@ -134,18 +131,7 @@ export default function Footer() {
               Powered by <span className="font-outfit font-semibold text-sidebar-foreground/80 tracking-tight">ZynkLabs</span>
             </p>
           </div>
-          <div className="flex gap-6 flex-wrap">
-            {footerLinks.legal.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm text-sidebar-foreground/60 hover:text-sidebar-foreground transition-colors"
-                data-testid={`link-footer-${link.label.toLowerCase().replace(/\s/g, '-')}`}
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
+
         </div>
       </div>
     </footer>

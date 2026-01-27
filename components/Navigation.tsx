@@ -40,8 +40,8 @@ export default function Navigation({ onNavigate }: NavigationProps) {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-background/95 backdrop-blur-md shadow-md'
-          : 'bg-transparent'
+        ? 'bg-background/95 backdrop-blur-md shadow-md'
+        : 'bg-transparent'
         }`}
       data-testid="navigation-header"
     >
@@ -86,8 +86,8 @@ export default function Navigation({ onNavigate }: NavigationProps) {
             <Button
               onClick={() => handleNavClick('#contact')}
               className={`uppercase tracking-wider font-semibold px-6 ${isScrolled
-                  ? ''
-                  : 'bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30 text-white'
+                ? ''
+                : 'bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30 text-white'
                 }`}
               data-testid="button-book-consultation"
             >
@@ -125,13 +125,7 @@ export default function Navigation({ onNavigate }: NavigationProps) {
                     </a>
                   ))}
                 </nav>
-                <Button
-                  onClick={() => handleNavClick('#contact')}
-                  className="mt-4 uppercase tracking-wider font-semibold"
-                  data-testid="button-mobile-book-consultation"
-                >
-                  Book Consultation
-                </Button>
+
               </div>
             </SheetContent>
           </Sheet>
