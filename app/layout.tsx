@@ -17,6 +17,15 @@ export const metadata = {
         title: 'Blue Avenue Stitches | Dubai Uniform Experts',
         images: ['/og-image-uniforms.jpg'],
     },
+    icons: {
+        icon: [
+            { url: '/web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png' },
+            { url: '/web-app-manifest-512x512.png', sizes: '512x512', type: 'image/png' },
+        ],
+        apple: [
+            { url: '/web-app-manifest-192x192.png', sizes: '192x192', type: 'image/png' },
+        ],
+    },
 };
 
 export default function RootLayout({
