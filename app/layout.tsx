@@ -8,9 +8,14 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata = {
     metadataBase: new URL('https://blueavenuestitches.ae'),
-    title: 'Top Uniform Supplier & Professional Tailoring in Dubai | Blue Avenue Stitches',
-    description: 'Blue Avenue Stitches offers premium uniform supply and professional stitching services in Dubai. Specialist in corporate, medical, and industrial uniforms.',
+    title: 'Blue Avenue Garments, Tailoring & Uniforms in Dubai | Blue Avenue Stitches',
+    description: 'Blue Avenue Stitches — your trusted source for Blue Avenue garments, Blue Avenue tailoring, and Blue Avenue uniforms in Dubai, UAE. Premium corporate, hospitality, medical & custom uniforms with expert stitching.',
     keywords: [
+        'blue avenue garments',
+        'blue avenue tailoring',
+        'blue avenue uniforms',
+        'Blue Avenue Stitches',
+        'Blue Avenue Dubai',
         'uniform supplier Dubai',
         'professional tailoring Dubai',
         'corporate uniforms UAE',
@@ -19,8 +24,10 @@ export const metadata = {
         'hospitality uniforms UAE',
         'custom embroidery Dubai',
         'industrial workwear Dubai',
-        'Blue Avenue Stitches',
         'uniform stitching Dubai',
+        'garments supplier Dubai',
+        'bespoke tailoring UAE',
+        'custom garments Dubai',
     ],
     robots: {
         index: true,
@@ -43,8 +50,8 @@ export const metadata = {
         type: 'website',
         locale: 'en_AE',
         siteName: 'Blue Avenue Stitches',
-        title: 'Blue Avenue Stitches | Dubai Uniform Experts',
-        description: 'Premium uniform supply and professional stitching services in Dubai. Corporate, medical, hospitality & school uniforms.',
+        title: 'Blue Avenue Garments & Uniforms | Blue Avenue Stitches Dubai',
+        description: 'Blue Avenue garments, tailoring & uniforms in Dubai. Expert stitching for corporate, medical, hospitality & custom sectors across the UAE.',
         url: 'https://blueavenuestitches.ae',
         images: [
             {
@@ -57,8 +64,8 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Blue Avenue Stitches | Dubai Uniform Experts',
-        description: 'Premium uniform supply and professional stitching services in Dubai.',
+        title: 'Blue Avenue Garments & Uniforms | Blue Avenue Stitches Dubai',
+        description: 'Blue Avenue tailoring, garments & uniforms in Dubai, UAE. Corporate, medical, hospitality & custom uniforms.',
         images: ['/og-image-uniforms.jpg'],
     },
     icons: {

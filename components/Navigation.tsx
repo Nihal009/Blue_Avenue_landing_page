@@ -82,18 +82,6 @@ export default function Navigation({ onNavigate }: NavigationProps) {
             ))}
           </div>
 
-          <div className="hidden lg:block">
-            <Button
-              onClick={() => handleNavClick('#contact')}
-              className={`uppercase tracking-wider font-semibold px-6 ${isScrolled
-                ? ''
-                : 'bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30 text-white'
-                }`}
-              data-testid="button-book-consultation"
-            >
-              Book Consultation
-            </Button>
-          </div>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">

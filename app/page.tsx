@@ -4,6 +4,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutServices from '@/components/AboutServices';
 import PortfolioShowcase from '@/components/PortfolioShowcase';
+import ClientsSection from '@/components/ClientsSection';
 import LocationsSection from '@/components/LocationsSection';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
@@ -20,7 +21,8 @@ export default function LandingPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Blue Avenue Stitches",
-        "description": "Premium uniform supply and professional stitching services in Dubai, specializing in corporate, medical, and hospitality uniforms.",
+        "alternateName": ["Blue Avenue Garments", "Blue Avenue Tailoring", "Blue Avenue Uniforms"],
+        "description": "Blue Avenue Stitches provides premium Blue Avenue garments, Blue Avenue tailoring, and Blue Avenue uniforms in Dubai, UAE. Specialising in corporate, medical, hospitality, and custom uniforms with expert stitching and embroidery.",
         "url": "https://blueavenuestitches.ae",
         "telephone": "045753696",
         "address": {
@@ -33,12 +35,13 @@ export default function LandingPage() {
         "areaServed": "Dubai, UAE",
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
-            "name": "Tailoring Services",
+            "name": "Blue Avenue Garments & Uniform Services",
             "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corporate Uniform Stitching" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Medical Scrubs & Lab Coats" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "School Uniform Manufacturing" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hospitality Staff Uniforms" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blue Avenue Corporate Uniforms" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blue Avenue Tailoring Services" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blue Avenue Medical Scrubs & Lab Coats" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blue Avenue Hospitality Staff Uniforms" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blue Avenue Custom Garments & Embroidery" } }
             ]
         }
     };
@@ -49,34 +52,34 @@ export default function LandingPage() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Who is the leading uniform supplier in Dubai?",
+                "name": "What is Blue Avenue Stitches and what are Blue Avenue uniforms?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Blue Avenue Stitches is a premier uniform supplier in Dubai, specializing in high-quality stitching for corporate, medical, hospitality, and school sectors across the UAE."
+                    "text": "Blue Avenue Stitches is Dubai's premier Blue Avenue uniforms and garments provider, specialising in high-quality stitching for corporate, medical, hospitality, and school sectors across the UAE."
                 }
             },
             {
                 "@type": "Question",
-                "name": "How long does professional uniform stitching take in Dubai?",
+                "name": "How long does Blue Avenue tailoring take in Dubai?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "At Blue Avenue Stitches, our standard lead time for uniform stitching ranges from 7 to 14 business days, depending on the order size and design complexity. We also offer express services for urgent requirements."
+                    "text": "At Blue Avenue Stitches, our standard lead time for Blue Avenue tailoring and uniform stitching ranges from 7 to 14 business days, depending on the order size and design complexity. We also offer express services for urgent requirements."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Do you provide custom logo embroidery for uniforms?",
+                "name": "Does Blue Avenue provide custom logo embroidery on garments?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, we provide high-precision custom logo embroidery and screen printing services for all types of professional uniforms to help build your brand identity in the Dubai market."
+                    "text": "Yes, Blue Avenue garments include high-precision custom logo embroidery and screen printing services for all types of professional uniforms, helping build your brand identity across the Dubai market."
                 }
             },
             {
                 "@type": "Question",
-                "name": "What industries do you provide uniforms for in the UAE?",
+                "name": "What industries does Blue Avenue Stitches provide uniforms for?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "We cater to a wide range of industries including healthcare (scrubs and lab coats), hospitality (chef coats and staff attire), corporate (suits and shirts), and industrial workwear across Dubai."
+                    "text": "Blue Avenue uniforms and garments cover a wide range of industries including healthcare (scrubs and lab coats), hospitality (chef coats and staff attire), corporate (suits and shirts), and industrial workwear across Dubai and the UAE."
                 }
             }
         ]
@@ -102,6 +105,7 @@ export default function LandingPage() {
                 />
                 <AboutServices />
                 <PortfolioShowcase />
+                <ClientsSection />
                 <LocationsSection />
 
                 {/* Visual FAQ Section */}
