@@ -2,17 +2,17 @@
 
 import Image from 'next/image';
 
-import subaruLogo from '@assets/clients/Subaru-Logo-1-scaled-1155x770.jpg';
-import website9Logo from '@assets/clients/Website-9.webp';
-import yutongLogo from '@assets/clients/Yutong-Logo.wine.png';
-import awesomeDriveLogo from '@assets/clients/awesome_drive.png';
-import fixandgoLogo from '@assets/clients/fixandgo.png';
-import jksLogo from '@assets/clients/jks.png';
-import maxusLogo from '@assets/clients/maxus.png';
-import motivateLogo from '@assets/clients/motivate.png';
-import samarajLogo from '@assets/clients/samaraj.png';
-import tajviLogo from '@assets/clients/tajvi.png';
-import yachtRentalLogo from '@assets/clients/yacht-rental-dubai-logo-DgT353Gm-e1748286339666.webp';
+import subaruLogo from '@assets/clients/subaru.webp';
+import website9Logo from '@assets/clients/website-9.webp';
+import yutongLogo from '@assets/clients/yutong.webp';
+import awesomeDriveLogo from '@assets/clients/awesome_drive.webp';
+import fixandgoLogo from '@assets/clients/fixandgo.webp';
+import jksLogo from '@assets/clients/jks.webp';
+import maxusLogo from '@assets/clients/maxus.webp';
+import motivateLogo from '@assets/clients/motivate.webp';
+import samarajLogo from '@assets/clients/samaraj.webp';
+import tajviLogo from '@assets/clients/tajvi.webp';
+import yachtRentalLogo from '@assets/clients/yacht-rental.webp';
 
 const clients = [
     { name: 'Subaru', src: subaruLogo, hasBg: true },
