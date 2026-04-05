@@ -41,7 +41,7 @@ export default function LocationsSection() {
             Visit Our <span className="text-primary italic">Shops</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Visit us at one of our convenient locations in Dubai.
+            Visit us at one of our convenient locations in Dubai. For general inquiries, contact us at <a href="tel:+971553365605" className="text-primary font-semibold hover:underline">+971 55 336 5605</a> or <a href="mailto:blueavenueuniforms@gmail.com" className="text-primary font-semibold hover:underline">blueavenueuniforms@gmail.com</a>.
           </p>
         </div>
 

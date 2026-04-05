@@ -64,7 +64,8 @@ export default function ClientsSection() {
                             title={client.name}
                             className={[
                                 'flex-shrink-0 flex items-center justify-center rounded-xl transition-all duration-300 hover:scale-105',
-                                // White card bg for logos that need it (jpg / opaque), transparent for PNGs
+                                // White card bg for logos that need it (webp can be opaque or transparent), 
+                                // we'll keep the hasBg logic for the card-like look if preferred.
                                 client.hasBg
                                     ? 'bg-white shadow-sm border border-border px-5 py-3'
                                     : 'bg-transparent px-4 py-3',
@@ -78,7 +79,6 @@ export default function ClientsSection() {
                                 height={60}
                                 className="object-contain w-full h-full"
                                 style={{
-                                    // For dark / coloured PNGs on a light bg – keep natural colour
                                     maxWidth: '140px',
                                     maxHeight: '60px',
                                 }}

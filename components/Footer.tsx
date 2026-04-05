@@ -116,6 +116,24 @@ export default function Footer() {
             </ul>
           </div>
 
+          <div className="space-y-4">
+            <h4 className="font-semibold text-sm uppercase tracking-wider">Contact</h4>
+            <ul className="space-y-3">
+              <li className="flex flex-col gap-1">
+                <span className="text-xs text-sidebar-foreground/50 uppercase tracking-tighter">Phone</span>
+                <a href="tel:+971553365605" className="text-sm text-sidebar-foreground/70 hover:text-sidebar-foreground transition-colors">
+                  +971 55 336 5605
+                </a>
+              </li>
+              <li className="flex flex-col gap-1">
+                <span className="text-xs text-sidebar-foreground/50 uppercase tracking-tighter">Email</span>
+                <a href="mailto:blueavenueuniforms@gmail.com" className="text-sm text-sidebar-foreground/70 hover:text-sidebar-foreground transition-colors break-words">
+                  blueavenueuniforms@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
 
         </div>
 
