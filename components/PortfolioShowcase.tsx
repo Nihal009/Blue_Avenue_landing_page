@@ -12,6 +12,7 @@ import aviationUniform from '@assets/generated_images/aviation_pilot_uniform_176
 import securityUniform from '@assets/generated_images/corporate_security_male_uniform_1766247952685.webp';
 import luxuryFabrics from '@assets/generated_images/luxury_fabric_swatches.webp';
 import customEmbroidery from '@assets/generated_images/custom_embroidery_service.png';
+import customSportsJerseys from '@assets/generated_images/custom_sports_jerseys.webp';
 
 const services = [
   {
@@ -79,6 +80,12 @@ const services = [
     image: womensFormal,
     title: "Bespoke Tailoring",
     description: 'Elegant formal wear and suits meticulously tailored to your individuality.',
+  },
+  {
+    id: 12,
+    image: customSportsJerseys,
+    title: 'Custom Sports Jerseys',
+    description: 'High-performance athletic wear and custom team jerseys designed for comfort and agility.',
   },
 ];
 
